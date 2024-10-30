@@ -1,6 +1,6 @@
-# Implementation of Linked list
+# # Implementation of Linked list
 
-import node
+import Node
 
 class LinkedList:
 
