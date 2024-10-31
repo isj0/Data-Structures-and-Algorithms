@@ -1,5 +1,4 @@
 # Node class to create a node for Linked List
-
 class Node:
     def __init__(self, data):
         self.data = data
