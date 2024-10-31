@@ -1,4 +1,4 @@
-import DSA.node as node
+import DSA.Node as Node
 
 # Implementation of Linked List
 
@@ -43,7 +43,7 @@ class LinkedList:
 
     # Insertion
     def insert(self, index, value):
-        new_node = node.Node(value)
+        new_node = Node.Node(value)
 
         if index == 0:
             new_node.next_node = self.first_node
@@ -61,6 +61,8 @@ class LinkedList:
 
         current_node.next_node = new_node
 
+    # Deletion
+    
 
 
 # node_1 = Node("Once")
