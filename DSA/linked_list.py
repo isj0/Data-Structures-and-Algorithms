@@ -1,6 +1,6 @@
 # # Implementation of Linked list
 
-import Node
+import DSA.node as node
 
 class LinkedList:
 
